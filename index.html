@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Music Festival — May 16</title>
+    <meta
+      name="description"
+      content="All Music Festival — May 16 at Genuine Pleasure Ranch, Indiantown, FL. Live performances, food, vendors opportunity, liquor. Call 561-846-0499."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <nav class="nav">
+        <a class="nav__brand" href="#top" aria-label="All Music Festival home">
+          ALL MUSIC FESTIVAL
+        </a>
+        <div class="nav__links">
+          <a href="#details">Details</a>
+          <a href="#location">Location</a>
+          <a href="#contact">Call</a>
+        </div>
+      </nav>
+
+      <main class="hero__content">
+        <div class="hero__left">
+          <p class="pill">All genres of music</p>
+          <h1 class="title">ALL MUSIC FESTIVAL</h1>
+          <p class="subtitle">Saturday, <strong>May 16</strong></p>
+
+          <div class="cta-row">
+            <a class="btn btn--primary" href="tel:+15618460499">Call: 561-846-0499</a>
+            <a class="btn btn--ghost" href="#details">See details</a>
+          </div>
+
+          <ul class="quick">
+            <li>🎤 Live performances</li>
+            <li>🍔 Food</li>
+            <li>🛍️ Vendors opportunity</li>
+            <li>🍸 Liquor</li>
+          </ul>
+
+          <p class="fineprint">
+            Tip: Replace <code>assets/flyer.jpg</code> with your image for an exact match.
+          </p>
+        </div>
+
+        <aside class="hero__right" aria-label="Festival flyer preview">
+          <figure class="flyer-card">
+            <img
+              src="./assets/flyer.jpg"
+              alt="All Music Festival flyer (May 16) with event details and phone number."
+              loading="eager"
+            />
+            <figcaption>Flyer preview</figcaption>
+          </figure>
+        </aside>
+      </main>
+    </header>
+
+    <section class="section" id="details">
+      <div class="container">
+        <h2 class="section__title">Event Details</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>What’s included</h3>
+            <p>
+              A full festival experience with live performances, food options, vendor
+              opportunities, and liquor available on-site.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Date</h3>
+            <p><strong>May 16</strong></p>
+            <p class="muted">All genres of music • Festival vibes</p>
+          </div>
+
+          <div class="card">
+            <h3>Get involved</h3>
+            <p>
+              Interested in being a vendor or performing? Call to ask about availability.
+            </p>
+            <a class="link" href="tel:+15618460499">Call now →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="location">
+      <div class="container">
+        <h2 class="section__title">Location</h2>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Genuine Pleasure Ranch</h3>
+            <p>10801 SW Fox Brown Rd</p>
+            <p>Indiantown, FL 34956</p>
+
+            <div class="cta-row">
+              <a
+                class="btn btn--primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.google.com/maps/search/?api=1&query=10801%20SW%20Fox%20Brown%20Rd%2C%20Indiantown%2C%20FL%2034956"
+              >
+                Open in Maps
+              </a>
+              <a class="btn btn--ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="card card--map">
+            <iframe
+              title="Map: Genuine Pleasure Ranch"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=10801%20SW%20Fox%20Brown%20Rd%2C%20Indiantown%2C%20FL%2034956&output=embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Call & Info</h2>
+
+        <div class="card callout">
+          <div>
+            <p class="muted">Questions, vendors, or performance inquiries:</p>
+            <p class="big">
+              <a class="phone" href="tel:+15618460499">561-846-0499</a>
+            </p>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="tel:+15618460499">Call now</a>
+            <a class="btn btn--ghost" href="#top">Back to top</a>
+          </div>
+        </div>
+
+        <p class="footer-note">
+          © <span id="year"></span> All Music Festival. All rights reserved.
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script>
+      // Tiny helper so the footer year stays current.
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
