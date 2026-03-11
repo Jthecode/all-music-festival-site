@@ -42,6 +42,7 @@
   <body>
     <header class="hero" id="top">
       <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
 
       <nav class="nav" aria-label="Main navigation">
         <a class="nav__brand" href="#top">🎶 ALL MUSIC FESTIVAL</a>
@@ -50,6 +51,7 @@
           <a href="#details">Details</a>
           <a href="#location">Location</a>
           <a href="#tickets">Tickets</a>
+          <a href="#commercial">Commercial</a>
           <a href="#social">Instagram</a>
           <a href="#contact">Call</a>
         </div>
@@ -68,9 +70,9 @@
           </p>
 
           <p class="hero__description">
-            A night of live performances, food, vendors, liquor, and festival
-            energy. Bring the crowd and experience a live music event built for
-            everyone.
+            A night of live performances, food, vendors, liquor, and nonstop
+            festival energy. Bring your people and experience a live music event
+            built for everybody.
           </p>
 
           <div class="cta-row">
@@ -199,6 +201,57 @@
       </div>
     </section>
 
+    <section class="section section--commercial" id="commercial">
+      <div class="container">
+        <h2 class="section__title">Official Commercial</h2>
+
+        <div class="grid grid--2 commercial-grid">
+          <article class="card commercial-copy">
+            <p class="eyebrow">Watch the Festival Vibe</p>
+            <h3>See the energy before you get there</h3>
+            <p>
+              Press play and experience the sound, visuals, and atmosphere behind
+              All Music Festival. This is where the music, crowd, and festival
+              feeling come to life.
+            </p>
+
+            <ul class="quick quick--stack" aria-label="Commercial highlights">
+              <li>🎥 Festival promo video</li>
+              <li>🔥 Real event energy</li>
+              <li>🎶 Music, crowd, and vibes</li>
+              <li>🎟 Perfect preview before buying tickets</li>
+            </ul>
+
+            <div class="cta-row">
+              <a
+                class="btn btn--primary"
+                href="https://www.eventbrite.com/e/the-all-music-festival-tickets-1981968327621?sg=f2f1ed7844127d5689e821cdc522a97d991a4c0423ec4a8f8f0cd9e3e783a8558a83e13f5468efd61bc5c57cbb0e0cd87d10cee44de91e8f5a60f75a25fcf9bb82ae9bf4da0d37fa0dfb13b9173f&aff=ebdsshios"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Tickets
+              </a>
+            </div>
+          </article>
+
+          <article class="card commercial-video-card">
+            <div class="video-shell">
+              <video
+                class="commercial-video"
+                controls
+                preload="metadata"
+                playsinline
+                poster="./assets/flyer.jpg"
+              >
+                <source src="./assets/commercial.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="section section--alt" id="social">
       <div class="container">
         <h2 class="section__title">Follow Us</h2>
@@ -223,44 +276,147 @@
       </div>
     </section>
 
-    <section class="section" id="contact">
+    <section class="section section--contact-festival" id="contact">
       <div class="container">
-        <h2 class="section__title">Contact</h2>
+        <h2 class="section__title">Contact & Festival Info</h2>
 
-        <div class="card callout">
-          <p>Questions, vendors, or performers:</p>
+        <div class="festival-band" aria-hidden="true"></div>
 
-          <h3>
-            <a class="phone" href="tel:+15618460499">561-846-0499</a>
-          </h3>
+        <div class="grid grid--3 contact-grid">
+          <article class="card card--glow">
+            <p class="contact-label">Questions</p>
+            <h3>Need event info?</h3>
+            <p>
+              Reach out directly for event questions, timing, access details, and
+              general festival information.
+            </p>
+          </article>
 
-          <div class="cta-row">
-            <a class="btn btn--primary" href="tel:+15618460499">Call Now</a>
+          <article class="card card--glow callout">
+            <p class="contact-label">Call Direct</p>
+            <h3>
+              <a class="phone" href="tel:+15618460499">561-846-0499</a>
+            </h3>
+            <p class="muted">
+              Vendors, performers, attendees, and festival inquiries welcome.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn--primary" href="tel:+15618460499">Call Now</a>
+            </div>
+          </article>
+
+          <article class="card card--glow">
+            <p class="contact-label">Stay Connected</p>
+            <h3>Follow the movement</h3>
+            <p>
+              Catch the latest updates, promo drops, and festival moments before
+              the big day.
+            </p>
+
+            <div class="cta-row">
+              <a
+                class="btn btn--ghost"
+                href="https://www.instagram.com/the_all_music_festival_?igsh=d3AxdXR0YXhydDJk&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Instagram
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="festival-outro card">
+          <p class="festival-outro__eyebrow">All Music Festival • May 16</p>
+          <h3>Music. Lights. Crowd. Energy.</h3>
+          <p>
+            Pull up to Genuine Pleasure Ranch for a full festival experience with
+            live performances, food vendors, liquor, and unforgettable vibes.
+          </p>
+
+          <div class="festival-outro__actions">
+            <a
+              class="btn btn--primary"
+              href="https://www.eventbrite.com/e/the-all-music-festival-tickets-1981968327621?sg=f2f1ed7844127d5689e821cdc522a97d991a4c0423ec4a8f8f0cd9e3e783a8558a83e13f5468efd61bc5c57cbb0e0cd87d10cee44de91e8f5a60f75a25fcf9bb82ae9bf4da0d37fa0dfb13b9173f&aff=ebdsshios"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Buy Tickets
+            </a>
+
+            <a class="btn btn--ghost" href="tel:+15618460499">
+              Call for Info
+            </a>
+          </div>
+
+          <div class="festival-tags" aria-label="Festival tags">
+            <span>#AllMusicFestival</span>
+            <span>#Indiantown</span>
+            <span>#LiveMusic</span>
+            <span>#FestivalVibes</span>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer">
-      <p>© <span id="year"></span> All Music Festival</p>
+    <footer class="footer footer--festival">
+      <div class="footer__glow footer__glow--one" aria-hidden="true"></div>
+      <div class="footer__glow footer__glow--two" aria-hidden="true"></div>
 
-      <p>
-        <a
-          href="https://www.instagram.com/the_all_music_festival_?igsh=d3AxdXR0YXhydDJk&utm_source=qr"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Instagram
-        </a>
-        •
-        <a
-          href="https://www.eventbrite.com/e/the-all-music-festival-tickets-1981968327621?sg=f2f1ed7844127d5689e821cdc522a97d991a4c0423ec4a8f8f0cd9e3e783a8558a83e13f5468efd61bc5c57cbb0e0cd87d10cee44de91e8f5a60f75a25fcf9bb82ae9bf4da0d37fa0dfb13b9173f&aff=ebdsshios"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Eventbrite
-        </a>
-      </p>
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__eyebrow">See You May 16</p>
+          <h3>ALL MUSIC FESTIVAL</h3>
+          <p>
+            Genuine Pleasure Ranch • Indiantown, Florida
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <a href="#details">Details</a>
+          <a href="#location">Location</a>
+          <a href="#tickets">Tickets</a>
+          <a href="#commercial">Commercial</a>
+          <a href="#social">Instagram</a>
+          <a href="#contact">Call</a>
+        </div>
+
+        <div class="footer__cta">
+          <a
+            class="btn btn--primary"
+            href="https://www.eventbrite.com/e/the-all-music-festival-tickets-1981968327621?sg=f2f1ed7844127d5689e821cdc522a97d991a4c0423ec4a8f8f0cd9e3e783a8558a83e13f5468efd61bc5c57cbb0e0cd87d10cee44de91e8f5a60f75a25fcf9bb82ae9bf4da0d37fa0dfb13b9173f&aff=ebdsshios"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buy Tickets
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> All Music Festival. All rights reserved.</p>
+
+        <p>
+          <a
+            href="https://www.instagram.com/the_all_music_festival_?igsh=d3AxdXR0YXhydDJk&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          •
+          <a
+            href="https://www.eventbrite.com/e/the-all-music-festival-tickets-1981968327621?sg=f2f1ed7844127d5689e821cdc522a97d991a4c0423ec4a8f8f0cd9e3e783a8558a83e13f5468efd61bc5c57cbb0e0cd87d10cee44de91e8f5a60f75a25fcf9bb82ae9bf4da0d37fa0dfb13b9173f&aff=ebdsshios"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Eventbrite
+          </a>
+          •
+          <a href="tel:+15618460499">561-846-0499</a>
+        </p>
+      </div>
     </footer>
 
     <script src="./script.js"></script>
